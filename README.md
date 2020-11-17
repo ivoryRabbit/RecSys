@@ -1,7 +1,6 @@
 # RecSys
 
-Various top-N recommendation systems under strictly strong generalization.
-
+Various top-N recommendation systems under the strictly strong generalization.
 
 1. ItemPop
 2. KNN
