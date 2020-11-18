@@ -6,7 +6,7 @@ Various top-N recommendation systems under the strictly strong generalization.
 2. KNN
 3. EASE
 4. AutoRec
-5. DeepAutoRec
+5. DeepRec
 6. CDAE
 7. Mult-VAE
 8. NCF
