@@ -1,4 +1,4 @@
-# RecSys
+# RecSys 공부
 
 ## 1. RecSys Paper List
 
@@ -156,8 +156,26 @@
 - [A Hybrid Approach to Enhance Pure Collaborative Filtering based on Content Feature Relationship](https://arxiv.org/pdf/2005.08148.pdf)
 - [Content-Based Personalized Recommender System Using Entity Embeddings](https://arxiv.org/ftp/arxiv/papers/2010/2010.12798.pdf)
 
+## 2. RecSys Survey Paper List
 
-## 2. General ML Paper List
+### 2017
+- [Recommender Systems with Random Walks: A Survey](https://arxiv.org/pdf/1711.04101.pdf)
+- [Use of Deep Learning in Modern Recommendation System: A Summary of Recent Works](https://arxiv.org/ftp/arxiv/papers/1712/1712.07525.pdf)
+
+### 2018
+- [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587.pdf)
+
+### 2019
+- [On the Difficulty of Evaluating Baselines](https://arxiv.org/pdf/1905.01395.pdf)
+- [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/pdf/1707.07435.pdf)
+
+### 2020
+- [Graph Neural Networks in Recommender Systems: A Survey](https://arxiv.org/pdf/2011.02260.pdf)
+- [Deep Learning on Knowledge Graph for Recommender System: A Survey](https://arxiv.org/pdf/2004.00387.pdf)
+- [A Survey of Similarity Measures for Collaborative Filtering-Based Recommender System](https://www.researchgate.net/profile/Gourav_Jain8/publication/339466606_A_Survey_of_Similarity_Measures_for_Collaborative_Filtering-Based_Recommender_System/links/5e5e8a7292851cefa1da8a9b/A-Survey-of-Similarity-Measures-for-Collaborative-Filtering-Based-Recommender-System.pdf)
+- [A survey on Adversarial Recommender Systems: from Attack/Defense strategies to Generative Adversarial Networks](https://arxiv.org/pdf/2007.07204.pdf)
+
+## 3. General ML/DL Paper List
 
 ### 2010
 - [An adaptive k-nearest neighbor algorithm](https://ieeexplore.ieee.org/document/5569740)
@@ -190,27 +208,14 @@
 - [Generative Language Modeling for Automated Theorem Proving](https://arxiv.org/pdf/2009.03393.pdf)
 - [Stochastic bandits with vector losses: Minimizing $\ell^{\infty}$-norm of relative losses](https://arxiv.org/pdf/2010.08061.pdf)
 
-## 3. Survey Paper List
+## 4. Dataset List
+- [MovieLens](https://grouplens.org/datasets/movielens/)
+- [Hotel trivago](https://recsys2019data.trivago.com/)
+- [Melon Playlist](https://arena.kakao.com/c/7/data)
 
-### 2017
-- [Recommender Systems with Random Walks: A Survey](https://arxiv.org/pdf/1711.04101.pdf)
-- [Use of Deep Learning in Modern Recommendation System: A Summary of Recent Works](https://arxiv.org/ftp/arxiv/papers/1712/1712.07525.pdf)
+## 5. Implementation
 
-### 2018
-- [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587.pdf)
-
-### 2019
-- [On the Difficulty of Evaluating Baselines](https://arxiv.org/pdf/1905.01395.pdf)
-- [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/pdf/1707.07435.pdf)
-
-### 2020
-- [Graph Neural Networks in Recommender Systems: A Survey](https://arxiv.org/pdf/2011.02260.pdf)
-- [Deep Learning on Knowledge Graph for Recommender System: A Survey](https://arxiv.org/pdf/2004.00387.pdf)
-- [A Survey of Similarity Measures for Collaborative Filtering-Based Recommender System](https://www.researchgate.net/profile/Gourav_Jain8/publication/339466606_A_Survey_of_Similarity_Measures_for_Collaborative_Filtering-Based_Recommender_System/links/5e5e8a7292851cefa1da8a9b/A-Survey-of-Similarity-Measures-for-Collaborative-Filtering-Based-Recommender-System.pdf)
-- [A survey on Adversarial Recommender Systems: from Attack/Defense strategies to Generative Adversarial Networks](https://arxiv.org/pdf/2007.07204.pdf)
-
-
-## 4. Implementation List
+- 
 
 ### DataSet
 - MovieLens data 1M/10M/20M/25M
@@ -226,6 +231,7 @@
   - numpy
   - scipy
   - tensorflow
+  - gensim(will be deprecated by tensorflow version)
 
 ### Implemented Model List
   - ItemPop
