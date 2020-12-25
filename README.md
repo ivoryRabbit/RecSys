@@ -202,10 +202,8 @@
     - ENU
 - [Adaptive Estimation for Approximate k-Nearest-Neighbor Computations](https://arxiv.org/pdf/1902.09465.pdf)
 - [How Powerful are Graph Neural Networks?](https://arxiv.org/pdf/1810.00826.pdf)
-- [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/pdf/1904.05049.pdf)
 
 ### 2020
-- [Generative Language Modeling for Automated Theorem Proving](https://arxiv.org/pdf/2009.03393.pdf)
 - [Stochastic bandits with vector losses: Minimizing $\ell^{\infty}$-norm of relative losses](https://arxiv.org/pdf/2010.08061.pdf)
 
 ## 4. Dataset List
