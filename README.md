@@ -213,15 +213,13 @@
 
 ## 5. Implementation
 
-- 
-
 ### DataSet
 - MovieLens data 1M/10M/20M/25M
 
 ### Goal
 - Study performance of the models under strictly strong generalization
   - Split all users disjointly into **train/valid/test set**
-  - Split user histories according to timestamp into **query/related set** for each user in **valid/test set**
+  - Split user histories according to timestamp into **query/relevant set** for each user in **valid/test set**
 - Build top-N recommendation systems and Evaluate them on **valid set**
 
 ### Library List
