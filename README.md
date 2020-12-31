@@ -30,17 +30,18 @@
 - [BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/ftp/arxiv/papers/1205/1205.2618.pdf)
     - BPR
 
+### 2013
+- [Local Low-Rank Matrix Approximation](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45235.pdf)
+    - LLRMA
+- [FISM: Factored Item Similarity Models for Top-N Recommender Systems](http://glaros.dtc.umn.edu/gkhome/node/1068)
+    - FISM
+
 ### 2014
 - [Using Graded Implicit Feedback for Bayesian Personalized Ranking](https://web-ainf.aau.at/pub/jannach/files/Conference_RecSys2014a.pdf)
     - BPR++
 - [Logistic Matrix Factorization for Implicit Feedback Data](https://web.stanford.edu/~rezab/nips2014workshop/submits/logmat.pdf)
     - LogisticMF
 
-### 2013
-- [Local Low-Rank Matrix Approximation](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45235.pdf)
-    - LLRMA
-- [FISM: Factored Item Similarity Models for Top-N Recommender Systems](http://glaros.dtc.umn.edu/gkhome/node/1068)
-    - FISM
     
 ### 2015
 - [AutoRec: Autoencoders Meet Collaborative Filtering](https://users.cecs.anu.edu.au/~akmenon/papers/autorec/autorec-paper.pdf)
@@ -241,6 +242,8 @@
   - Item2Vec
   - RBM
   - AkNN
+  
+ --- not yet
   - RaCT
   - RecVAE
   - H+Vamp
