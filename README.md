@@ -209,7 +209,8 @@
 
 ## 4. Dataset List
 - [MovieLens](https://grouplens.org/datasets/movielens/)
-- [Hotel trivago](https://recsys2019data.trivago.com/)
+- [Netflix Prize](https://www.kaggle.com/netflix-inc/netflix-prize-data/)
+- [Hotel Trivago](https://recsys2019data.trivago.com/)
 - [Melon Playlist](https://arena.kakao.com/c/7/data)
 
 ## 5. Implementation
