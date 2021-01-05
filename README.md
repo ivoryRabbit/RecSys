@@ -144,6 +144,9 @@
 ### 2020
 - [RACT: Towards Amortized Ranking-Critical Training for Collaborative Filtering](https://arxiv.org/pdf/1906.04281.pdf)
     - RACT
+- [Efficient Neural Matrix Factorization without Sampling for Recommendation](https://chenchongthu.github.io/files/TOIS_ENMF.pdf)
+    - ENMF
+    - [code](https://github.com/chenchongthu/ENMF)
 - [Inductive Matrix Completion Based on Graph Neural Networks](https://arxiv.org/pdf/1904.12058.pdf)
     - IGMC
 - [Deoscillated Graph Collaborative Filtering](https://arxiv.org/pdf/2011.02100.pdf)
