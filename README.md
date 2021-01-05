@@ -149,7 +149,7 @@
 - [Deoscillated Graph Collaborative Filtering](https://arxiv.org/pdf/2011.02100.pdf)
     - DGCF
 - [Sampler Design for Implicit Feedback Data by Noisy-label Robust Learning](https://arxiv.org/pdf/2007.07204.pdf)
-    - NBPO
+    - BPO, NBPO
 - [Meta-learning on Heterogeneous Information Networks for Cold-start Recommendation](https://yuanfulu.github.io/publication/KDD-MetaHIN.pdf)
     - MetaHIN
 - [TRSM-RS: A Movie Recommender System Based on Users' Gender and New Weighted Similarity Measure](https://arxiv.org/ftp/arxiv/papers/2011/2011.05119.pdf)
