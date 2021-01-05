@@ -136,6 +136,7 @@
     - CSE
 - [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
     - BERT4Rec
+- [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/6c8a86c981a62b0126a11896b7f6ae0dae4c3566.pdf)
 - [A Context-Aware Citation Recommendation Model with BERT and Graph Convolutional Networks](https://arxiv.org/pdf/1903.06464.pdf)
 - [Cold-start Playlist Recommendation with Multitask Learning](https://arxiv.org/pdf/1901.06125.pdf)
 - [Music Playlist Recommender System](https://wendy-xiao.github.io/files/playlist_recommandation.pdf)
@@ -183,6 +184,8 @@
     - AkNN
     
 ### 2014
+- [Scalable Nearest Neighbor Algorithms for High Dimensional Data](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6809191)
+    - ScaNN
 - [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)
     - DeepWalk
 
