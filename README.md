@@ -235,7 +235,6 @@
   - numpy
   - scipy
   - tensorflow
-  - gensim(will be deprecated by tensorflow version)
 
 ### Implemented Model List
   - ItemPop
@@ -249,6 +248,7 @@
   - Item2Vec
   - RBM
   - AkNN
+  - NADE
   
  --- not yet
   - RaCT
