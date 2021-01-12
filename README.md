@@ -1,4 +1,4 @@
-# RecSys 공부
+# RecSys Overview
 
 ## 1. RecSys Paper List
 
