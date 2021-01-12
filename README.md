@@ -262,5 +262,5 @@
   - LambdaRank
   - [GC-MC](https://github.com/riannevdberg/gc-mc/blob/master/gcmc/model.py)
   - [GraphAE](https://github.com/tkipf/gae/blob/master/gae/model.py)
-  - [FM](https://github.com/shenweichen/DeepCTR/tree/master/deepctr/models)
+  - [DeepFM](https://github.com/shenweichen/DeepCTR/tree/master/deepctr/models)
   - [SR-GNN](https://github.com/CRIPAC-DIG/SR-GNN/blob/master/tensorflow_code/model.py)
