@@ -213,30 +213,31 @@
 ### 2020
 - [Stochastic bandits with vector losses: Minimizing $\ell^{\infty}$-norm of relative losses](https://arxiv.org/pdf/2010.08061.pdf)
 
-## 4. Dataset List
+## 4. RecSys Dataset List
 - [MovieLens](https://grouplens.org/datasets/movielens/)
 - [Netflix Prize](https://www.kaggle.com/netflix-inc/netflix-prize-data/)
+- [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3)
 - [Hotel Trivago](https://recsys2019data.trivago.com/)
 - [Melon Playlist](https://arena.kakao.com/c/7/data)
 
 ## 5. Implementation
 
-### DataSet
+### Dataset
 - MovieLens data 1M/10M/20M/25M
 
 ### Goal
-- Study performance of the models under strictly strong generalization
+- Study performance of the models under the strictly strong generalization
   - Split all users disjointly into **train/valid/test set**
-  - Split user histories according to timestamp into **query/relevant set** for each user in **valid/test set**
-- Build top-N recommendation systems and Evaluate them on **valid set**
+  - For each user in **valid/test set**, split user feedbacks according to the timestamp into **query/relevant set**
+- Build top-N recommendation systems and evaluate them with various metrics
 
-### Library List
+### Necessary Library List
   - pandas
   - numpy
   - scipy
-  - tensorflow
+  - tensorflow 2
 
-### Implemented Model List
+### Current Implementation List
   - ItemPop
   - KNN
   - EASE
@@ -249,13 +250,17 @@
   - RBM
   - AkNN
   - NADE
+  - HierTCN
   
- --- not yet
+### Not yet, but i will
   - RaCT
   - RecVAE
   - H+Vamp
-  - HierTCN
   - KGNN
   - PinSAGE
   - BRP
   - LambdaRank
+  - [GC-MC](https://github.com/riannevdberg/gc-mc/blob/master/gcmc/model.py)
+  - [GraphAE](https://github.com/tkipf/gae/blob/master/gae/model.py)
+  - [FM](https://github.com/shenweichen/DeepCTR/tree/master/deepctr/models)
+  - [SR-GNN](https://github.com/CRIPAC-DIG/SR-GNN/blob/master/tensorflow_code/model.py)
