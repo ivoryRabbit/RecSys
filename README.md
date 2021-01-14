@@ -136,6 +136,8 @@
     - CSE
 - [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
     - BERT4Rec
+- [N2VSCDNNR: A Local Recommender System Based on Node2vec and Rich Information Network](https://arxiv.org/pdf/1904.12605.pdf)
+    - N2VSCDNNR
 - [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/6c8a86c981a62b0126a11896b7f6ae0dae4c3566.pdf)
 - [A Context-Aware Citation Recommendation Model with BERT and Graph Convolutional Networks](https://arxiv.org/pdf/1903.06464.pdf)
 - [Cold-start Playlist Recommendation with Multitask Learning](https://arxiv.org/pdf/1901.06125.pdf)
@@ -192,9 +194,15 @@
 - [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)
     - DeepWalk
 
+### 2016
+- [node2vec: Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf)
+    - Node2vec
+
 ### 2017
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
     - Transformer
+- [graph2vec: Learning Distributed Representations of Graphs](https://arxiv.org/pdf/1707.05005.pdf)
+    - Graph2vec
 
 ### 2018
 - [Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf)
