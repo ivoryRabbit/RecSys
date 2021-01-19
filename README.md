@@ -227,6 +227,7 @@
 - [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3)
 - [Hotel Trivago](https://recsys2019data.trivago.com/)
 - [Melon Playlist](https://arena.kakao.com/c/7/data)
+- [Book Crossing](https://www.kaggle.com/somnambwl/bookcrossing-dataset)
 
 ## 5. Implementation
 
