@@ -12,7 +12,7 @@
 - [Collaborative Filtering for Implicit Feedback Datasets](http://www.yifanhu.net/PUB/cf.pdf)
      - WMF / IMF
 - [Collaborative Filtering with Temporal Dynamics](https://www.cc.gatech.edu/~zha/CSE8801/CF/kdd-fp074-koren.pdf)
-    - SVD++
+    - SVD++, timeSVD++
 - [Bayesian Probabilistic Matrix Factorization using Markov Chain Monte Carlo](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)
     - BPMF
 - [Restricted Boltzmann Machines for Collaborative Filtering](http://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf)
