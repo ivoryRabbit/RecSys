@@ -201,6 +201,8 @@
 ### 2017
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
     - Transformer
+- [Semi-Supervised Classification with Graph Convolutional Network](https://arxiv.org/pdf/1609.02907.pdf)
+    - GCN
 - [graph2vec: Learning Distributed Representations of Graphs](https://arxiv.org/pdf/1707.05005.pdf)
     - Graph2vec
 
@@ -257,7 +259,7 @@
   - Mult-VAE
   - NCF
   - Item2Vec
-  - RBM
+  - RBM-CF
   - AkNN
   - NADE
   - HierTCN
