@@ -224,6 +224,7 @@
 ## 4. RecSys Dataset List
 - [MovieLens](https://grouplens.org/datasets/movielens/)
 - [Netflix Prize](https://www.kaggle.com/netflix-inc/netflix-prize-data/)
+- [Spotify](https://research.atspotify.com/datasets/)
 - [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3)
 - [Hotel Trivago](https://recsys2019data.trivago.com/)
 - [Melon Playlist](https://arena.kakao.com/c/7/data)
