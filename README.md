@@ -232,7 +232,16 @@
 - [Melon Playlist](https://arena.kakao.com/c/7/data)
 - [Book Crossing](https://www.kaggle.com/somnambwl/bookcrossing-dataset)
 
-## 5. Implementation
+## 5. Open Source List (Python)
+- [TFRS](https://github.com/tensorflow/recommenders)
+- [Pytorch-Biggraph](https://github.com/facebookresearch/PyTorch-BigGraph)
+- [Implicit](https://github.com/benfred/implicit)
+- [LightFM](https://github.com/lyst/lightfm)
+- [Spotlight](https://github.com/maciejkula/spotlight)
+- [Surprise](https://github.com/NicolasHug/Surprise)
+- [Lenskit](https://github.com/lenskit/lkpy)
+
+## 6. Implementation
 
 ### Dataset
 - MovieLens data 1M/10M/20M/25M
@@ -246,6 +255,7 @@
 ### Necessary Library List
   - pandas
   - numpy
+  - scikit-learn
   - scipy
   - tensorflow 2
 
@@ -263,8 +273,12 @@
   - AkNN
   - NADE
   - HierTCN
+  - Node2vec
+  - GCN
   
 ### Not yet, but i will
+  - BPR
+  - TimeSVD++
   - RaCT
   - RecVAE
   - H+Vamp
