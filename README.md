@@ -257,6 +257,7 @@
   - numpy
   - scikit-learn
   - scipy
+  - networkx
   - tensorflow 2
 
 ### Current Implementation List
