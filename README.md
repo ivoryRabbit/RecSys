@@ -109,8 +109,6 @@
     - SASRec
 - [Collaborative Filtering with User-Item Co-Autoregressive Models](https://arxiv.org/pdf/1612.07146.pdf)
     - CF-UIcA
-- [FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling](https://arxiv.org/pdf/1801.10247.pdf)
-    - FastGCN
 - [Efficient K-NN for Playlist Continuation](https://core.ac.uk/download/pdf/185625393.pdf)
 - [Top-K Off-Policy Correction for a REINFORCE Recommender System](https://arxiv.org/pdf/1812.02353.pdf)
 
@@ -211,6 +209,8 @@
 ### 2018
 - [Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf)
     - GraphSAGE
+- [FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling](https://arxiv.org/pdf/1801.10247.pdf)
+    - FastGCN
 
 ### 2019
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
