@@ -136,6 +136,9 @@
     - CSE
 - [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
     - BERT4Rec
+- [Reinforcement Learning to Optimize Long-term User
+Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
+    - FeedRec
 - [N2VSCDNNR: A Local Recommender System Based on Node2vec and Rich Information Network](https://arxiv.org/pdf/1904.12605.pdf)
     - N2VSCDNNR
 - [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/6c8a86c981a62b0126a11896b7f6ae0dae4c3566.pdf)
@@ -146,6 +149,8 @@
 ### 2020
 - [RACT: Towards Amortized Ranking-Critical Training for Collaborative Filtering](https://arxiv.org/pdf/1906.04281.pdf)
     - RACT
+- [$S^3$-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](https://arxiv.org/pdf/2008.07873.pdf)
+    - S3-Rec
 - [Efficient Neural Matrix Factorization without Sampling for Recommendation](https://chenchongthu.github.io/files/TOIS_ENMF.pdf)
     - ENMF
     - [code](https://github.com/chenchongthu/ENMF)
@@ -262,7 +267,7 @@
   - networkx
   - tensorflow 2
 
-### Current Implementation List
+### Current My Implementation List(including unopened)
   - ItemPop
   - KNN
   - EASE
@@ -278,6 +283,7 @@
   - HierTCN
   - Node2vec
   - GCN
+  - S3-Rec
   
 ### Not yet, but i will
   - BPR
