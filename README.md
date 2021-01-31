@@ -257,7 +257,7 @@ Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
 - Study performance of the models under the strictly strong generalization
   - Split all users disjointly into **train/valid/test set**
   - For each user in **valid/test set**, split user feedbacks according to the timestamp into **query/relevant set**
-- Build top-N recommendation systems and evaluate them with various metrics
+- Build top-N recommendation systems and evaluate them with various metrics in Colab
 
 ### Necessary Library List
   - pandas
@@ -265,7 +265,7 @@ Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
   - scikit-learn
   - scipy
   - networkx
-  - tensorflow 2
+  - tensorflow 2.x
 
 ### Current My Implementation List(including unopened)
   - ItemPop
@@ -279,7 +279,7 @@ Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
   - Item2Vec
   - RBM-CF
   - AkNN
-  - NADE
+  - CF-NADE
   - HierTCN
   - Node2vec
   - GCN
@@ -293,7 +293,6 @@ Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
   - H+Vamp
   - KGNN
   - PinSAGE
-  - BRP
   - LambdaRank
   - [GC-MC](https://github.com/riannevdberg/gc-mc/blob/master/gcmc/model.py)
   - [GraphAE](https://github.com/tkipf/gae/blob/master/gae/model.py)
