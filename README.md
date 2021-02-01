@@ -136,8 +136,7 @@
     - CSE
 - [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
     - BERT4Rec
-- [Reinforcement Learning to Optimize Long-term User
-Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
+- [Reinforcement Learning to Optimize Long-term User Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
     - FeedRec
 - [N2VSCDNNR: A Local Recommender System Based on Node2vec and Rich Information Network](https://arxiv.org/pdf/1904.12605.pdf)
     - N2VSCDNNR
@@ -198,6 +197,10 @@ Engagement in Recommender Systems](https://arxiv.org/pdf/1902.05570.pdf)
     - ScaNN
 - [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)
     - DeepWalk
+
+### 2015
+- [LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf)
+    - LINE
 
 ### 2016
 - [node2vec: Scalable Feature Learning for Networks](https://arxiv.org/pdf/1607.00653.pdf)
