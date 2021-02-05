@@ -68,6 +68,8 @@
     - CF-NADE
 - [Neural Autoregressive Collaborative Filtering for Implicit Feedback](https://arxiv.org/pdf/1606.07674.pdf)
     - implicit NADE
+- [ITEM2VEC: NEURAL ITEM EMBEDDING FOR COLLABORATIVE FILTERING](https://arxiv.org/ftp/arxiv/papers/1603/1603.04259.pdf)
+    - item2vec
 - [Session-based Recommendations with Recurrent Neural Networks](https://arxiv.org/pdf/1511.06939.pdf)
     - GRU4Rec
 - [Exploiting Explicit and Implicit Feedback for Personalized Ranking](https://downloads.hindawi.com/journals/mpe/2016/2535329.pdf)
