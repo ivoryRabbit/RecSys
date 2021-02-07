@@ -264,17 +264,17 @@
   - For each user in **valid/test set**, split user feedbacks according to the timestamp into **query/relevant set**
 - Build top-N recommendation systems and evaluate them with various metrics in Colab
 
-### Necessary Library List
+### Module List
   - pandas
   - numpy
   - scikit-learn
   - scipy
   - networkx
-  - tensorflow 2.x
+  - tensorflow 2.4
 
-### Current My Implementation List(including unopened)
+### My Current Implementation List(including unopened)
   - ItemPop
-  - KNN
+  - MBCF
   - EASE
   - AutoRec
   - DeepRec
@@ -282,16 +282,20 @@
   - Mult-VAE
   - NCF
   - Item2Vec
-  - RBM-CF
-  - AkNN
-  - CF-NADE
+  - kNN
+  - RBM
+  - NADE
   - HierTCN
-  - Node2vec
+  - Node2Vec
   - GCN
   - S3-Rec
+  - SASREC
+  - BERT4Rec
   
 ### Not yet, but i will
-  - BPR
+  - BPR + MF, BPR + kNN
+  - ALS
+  - LR-based
   - TimeSVD++
   - RaCT
   - RecVAE
