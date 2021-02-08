@@ -276,7 +276,7 @@
 ### Current Implementation List (including unopened)
 
 | Model    | Comment |
-| :---     | :--- |
+| ---      | --- |
 | ItemPop  | Base model, the worst diversity |
 | MBCF     | Base model of user-based CFs |
 | EASE     | The Best performance |
@@ -289,12 +289,13 @@
 | kNN      | Search k-nearest users |
 | RBM      | Grandma of AE |
 | NADE     | AE-based model using ordinal information |
+| GRU4Rec  | Session based model with GRU |
 | HierTCN  | Session based model with GRU & 1D-CNN |
 | Node2Vec | Extract user and item representations |
 | GCN      | Extract graph representation inductively |
-| SASREC   | Predict next item in self-attention model |
-| BERT4Rec | Predict masked item in self-attention model |
-| S3-Rec   | Pretrain both SASREC and BERT4Rec |
+| SASRec   | Predict next item in self-attention transformer |
+| BERT4Rec | Predict masked item in self-attention transformer |
+| S3-Rec   | Pretrain both SASREC and BERT4Rec with mutual informations |
 | RankSVM  | Support vector machine for learning to rank | 
 
 ### Not yet, but i will
