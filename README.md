@@ -57,6 +57,7 @@
 
 ### 2016
 - [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf)
+- [Learning to Rank: From Pairwise Approach to Listwise Approach](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2007-40.pdf)
 - [Collaborative Denoising Auto-Encoders for Top-N Recommender Systems](https://alicezheng.org/papers/wsdm16-cdae.pdf)
     - CDAE
 - [Variational Graph Auto-Encoders](https://arxiv.org/pdf/1611.07308.pdf)
@@ -273,29 +274,32 @@
   - tensorflow 2.4
 
 ### My Current Implementation List(including unopened)
-  - ItemPop
-  - MBCF
-  - EASE
-  - AutoRec
-  - DeepRec
-  - CDAE
-  - Mult-VAE
-  - NCF
-  - Item2Vec
-  - kNN
-  - RBM
-  - NADE
-  - HierTCN
-  - Node2Vec
-  - GCN
-  - S3-Rec
-  - SASREC
-  - BERT4Rec
-  
+
+| model name | comment |
+| ---      | --- |
+| ItemPop  | Base model, the worst diversity |
+| MBCF     | Base model of user-based CFs |
+| EASE     | The Best performance |
+| AutoRec  | Base model of AE |
+| DeepRec  | Capacity improved model of AutoRec |
+| CDAE     | Corrupt inputs for robust AE model |
+| Mult-VAE | Use variational inference with AE model |
+| NCF      | An extension of MF |
+| Item2Vec | Extract item representations |
+| kNN      | Search k-nearest users |
+| RBM      | Grandma of AE |
+| NADE     | AE-based model using ordinal information |
+| HierTCN  | Session based model with GRU & 1D-CNN |
+| Node2Vec | Extract user and item representations |
+| GCN      | Extract graph representation inductively |
+| SASREC   | Predict next item in self-attention model |
+| BERT4Rec | Predict masked item in self-attention model |
+| S3-Rec   | Pretrain both SASREC and BERT4Rec |
+| RankSVM  | Support vector machine for learning to rank | 
+
 ### Not yet, but i will
-  - BPR + MF, BPR + kNN
+  - BPR
   - ALS
-  - LR-based
   - TimeSVD++
   - RaCT
   - RecVAE
