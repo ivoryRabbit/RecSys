@@ -273,10 +273,10 @@
   - networkx
   - tensorflow 2.4
 
-### My Current Implementation List(including unopened)
+### Current Implementation List (including unopened)
 
-| model name | comment |
-| ---      | --- |
+| Model    | Comment |
+| :---     | :--- |
 | ItemPop  | Base model, the worst diversity |
 | MBCF     | Base model of user-based CFs |
 | EASE     | The Best performance |
