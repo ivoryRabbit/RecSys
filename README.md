@@ -279,7 +279,7 @@
 | ---      | --- |
 | ItemPop  | Base model, the worst diversity |
 | MBCF     | Base model of user-based CFs |
-| EASE     | The Best performance |
+| EASE     | The best performance, improved model of SLIM |
 | AutoRec  | Base model of AE |
 | DeepRec  | Capacity improved model of AutoRec |
 | CDAE     | Corrupt inputs for robust AE model |
