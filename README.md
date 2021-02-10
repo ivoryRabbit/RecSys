@@ -293,9 +293,6 @@
 | HierTCN  | Session based model with GRU & 1D-CNN |
 | Node2Vec | Extract user and item representations |
 | GCN      | Extract graph representation inductively |
-\\<!-- | SASRec   | Predict next item in self-attention transformer |
-| BERT4Rec | Predict masked item in self-attention transformer |
-| S3-Rec   | Pretrain both SASREC and BERT4Rec with item informations | -->
 | RankSVM  | Support vector machine for learning to rank |
 
 ### Not yet, but i will
