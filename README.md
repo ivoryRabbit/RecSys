@@ -114,6 +114,7 @@
     - CF-UIcA
 - [Efficient K-NN for Playlist Continuation](https://core.ac.uk/download/pdf/185625393.pdf)
 - [Top-K Off-Policy Correction for a REINFORCE Recommender System](https://arxiv.org/pdf/1812.02353.pdf)
+- [Buy It Again: Modeling Repeat Purchase Recommendations](https://dl.acm.org/doi/pdf/10.1145/3219819.3219891)
 
 ### 2019
 - [Embarrassingly Shallow Autoencoders for Sparse Data](https://arxiv.org/pdf/1905.03375.pdf)
