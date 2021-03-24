@@ -285,6 +285,7 @@
 | DeepRec  | Capacity improved model of AutoRec |
 | CDAE     | Corrupt inputs for robust AE model |
 | Mult-VAE | Use variational inference with AE model |
+| Mult-DAE | Use corrupted inputs with multinomial assuption |
 | NCF      | An extension of MF |
 | Item2Vec | Extract item representations |
 | kNN      | Search k-nearest users |
@@ -292,20 +293,21 @@
 | NADE     | AE-based model using ordinal information |
 | GRU4Rec  | Session based model with GRU |
 | HierTCN  | Session based model with GRU & 1D-CNN |
-| Node2Vec | Extract user and item representations |
+| Node2Vec | Item2Vec with Random Walk |
 | GCN      | Extract graph representation inductively |
 | RankSVM  | Support vector machine for learning to rank |
 
 ### Not yet, but i will
-  - BPR
+
+  - BPR + SVD
   - ALS
   - TimeSVD++
+  - LambdaRank
   - RaCT
   - RecVAE
   - H+Vamp
   - KGNN
   - PinSAGE
-  - LambdaRank
   - [GC-MC](https://github.com/riannevdberg/gc-mc/blob/master/gcmc/model.py)
   - [GraphAE](https://github.com/tkipf/gae/blob/master/gae/model.py)
   - [DeepFM](https://github.com/shenweichen/DeepCTR/tree/master/deepctr/models)
