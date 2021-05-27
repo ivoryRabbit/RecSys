@@ -217,6 +217,8 @@
     - GCN
 - [graph2vec: Learning Distributed Representations of Graphs](https://arxiv.org/pdf/1707.05005.pdf)
     - Graph2vec
+- [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/pdf/1705.08039.pdf)
+    - Poincaré Distance
 
 ### 2018
 - [Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf)
