@@ -21,6 +21,8 @@
     - LambdaRank
 - [SLIM: Sparse Linear Methods for Top-N Recommender Systems](https://ieeexplore.ieee.org/document/6137254)
     - SLIM
+- [Real-time Collaborative Filtering Recommender Systems](http://users.cecs.anu.edu.au/~u5170295/publications/AusDM2014.pdf)
+    - RCF / LSH-CF
 
 ### 2011
 - [Collaborative Topic Modeling for Recommending Scientific Articles](https://www.cse.cuhk.edu.hk/irwin.king/_media/presentations/wangblei2011.pdf)
