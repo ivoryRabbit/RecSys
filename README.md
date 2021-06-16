@@ -265,10 +265,10 @@
 - MovieLens data 1M/10M/20M/25M
 
 ### Goal
-- Study performance of the models under the strictly strong generalization
+- Study the performance of models under the strictly strong generalization
   - Split all users disjointly into **train/valid/test set**
-  - For each user in **valid/test set**, split user feedbacks according to the timestamp into **query/relevant set**
-- Build top-N recommendation systems and evaluate them with various metrics in Colab
+  - For each user in **valid/test set**, split user feedbacks chronologically into **query/relevant set**
+- Build top-N recommendation systems and evaluate them with various metrics using Google Colab
 
 ### Module List
   - pandas
@@ -281,16 +281,16 @@
 ### Current Implementation List (including unopened)
 
 | Model    | Comment |
-| ---      | --- |
+|:---      | --- |
 | ItemPop  | Base model, the worst diversity |
 | MBCF     | Base model of user-based CFs |
 | EASE     | The best performance, improved model of SLIM |
 | AutoRec  | Base model of AE |
 | DeepRec  | Capacity improved model of AutoRec |
 | CDAE     | Corrupt inputs for robust AE model |
-| Mult-VAE | Use variational inference with AE model |
-| Mult-DAE | Use corrupted inputs with multinomial assuption |
-| NCF      | An extension of MF |
+| Mult-VAE | Generative version of AE model with multinomial assumption |
+| Mult-DAE | Corrupt input data for robustness with multinomial assumption |
+| NCF      | A neural extension of MF |
 | Item2Vec | Extract item representations |
 | kNN      | Search k-nearest users |
 | RBM      | Grandma of AE |
@@ -300,6 +300,21 @@
 | Node2Vec | Item2Vec with Random Walk |
 | GCN      | Extract graph representation inductively |
 | RankSVM  | Support vector machine for learning to rank |
+
+### Evaluation with ml-10m but, without HPO
+
+| Model    | Recall@10 | Precision@10 | HR@10 | nDCG@10 |
+|:---      | ---       | ---          | ---   | ---     |
+| ItemPop  | 0.077     | 0.054        | 0.327 | 0.071   |
+| SIM      | 0.095     | 0.065        | 0.376 | 0.088   |
+| *EASE    | 0.137     | 0.094        | 0.520 | 0.123   |
+| AutoRec  | 0.129     | 0.075        | 0.528 | 0.119   |
+| DeepRec  | 0.105     | 0.075        | 0.476 | 0.097   |
+| Mult-VAE | 0.119     | 0.083        | 0.466 | 0.108   |
+| RBM      | 0.120     | 0.086        | 0.517 | 0.111   |
+| NADE     | 0.119     | 0.083        | 0.447 | 0.090   |
+| RankSVM  | 0.107     | 0.076        | 0.432 | 0.096   |
+
 
 ### Not yet, but i will
 
@@ -312,6 +327,7 @@
   - H+Vamp
   - KGNN
   - PinSAGE
+  - HRNN
   - [GC-MC](https://github.com/riannevdberg/gc-mc/blob/master/gcmc/model.py)
   - [GraphAE](https://github.com/tkipf/gae/blob/master/gae/model.py)
   - [DeepFM](https://github.com/shenweichen/DeepCTR/tree/master/deepctr/models)
