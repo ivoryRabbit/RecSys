@@ -99,7 +99,7 @@
 - [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/pdf/1703.04247.pdf)
     - DeepFM
 - [Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks](https://arxiv.org/pdf/1706.04148.pdf)
-    - HRNN
+    - HRNN / HGRU
 - [Attentive Collaborative Filtering: Multimedia Recommendation with Item- and Component-Level Attention](https://www.comp.nus.edu.sg/~xiangnan/papers/sigir17-AttentiveCF.pdf)
     - ACF
 
