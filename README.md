@@ -173,6 +173,12 @@
 - [A Hybrid Approach to Enhance Pure Collaborative Filtering based on Content Feature Relationship](https://arxiv.org/pdf/2005.08148.pdf)
 - [Content-Based Personalized Recommender System Using Entity Embeddings](https://arxiv.org/ftp/arxiv/papers/2010/2010.12798.pdf)
 
+### 2021
+- [On Mitigating Popularity Bias in Recommendations via Variational Autoencoders](https://homepages.tuni.fi/konstantinos.stefanidis/docs/sac2021.pdf)
+- [Bilateral Variational Autoencoder for Collaborative Filtering](https://dl.acm.org/doi/10.1145/3437963.3441759)
+    - BiVAE
+
+
 ## 2. RecSys Survey Paper List
 
 ### 2017
