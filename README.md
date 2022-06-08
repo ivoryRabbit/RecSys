@@ -205,8 +205,6 @@
     - AkNN
     
 ### 2014
-- [Scalable Nearest Neighbor Algorithms for High Dimensional Data](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6809191)
-    - ScaNN
 - [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)
     - DeepWalk
 
@@ -246,6 +244,8 @@
 
 ### 2020
 - [Stochastic bandits with vector losses: Minimizing $\ell^{\infty}$-norm of relative losses](https://arxiv.org/pdf/2010.08061.pdf)
+- [Accelerating Large-Scale Inference with Anisotropic Vector Quantization](https://arxiv.org/pdf/1908.10396.pdf)
+    - ScaNN
 
 ## 4. RecSys Dataset List
 - [MovieLens](https://grouplens.org/datasets/movielens/)
